@@ -1,0 +1,19 @@
+{
+	"version": "1.0.0",
+	"type": "module",
+	"private": true,
+	"main": "source/index.js",
+	"repository": "git@github.com:enzime4u/Demos.git",
+	"license": "MIT",
+	"scripts": {
+		"start": "./node_modules/.bin/nore start client"
+	},
+	"dependencies": {
+		"react": "^16.8.0",
+		"react-dom": "^16.8.0",
+		"@reach/router": "^1.2.0"
+	},
+	"devDependencies": {
+		"@nore/cli": "^1.1.0"
+	}
+}
