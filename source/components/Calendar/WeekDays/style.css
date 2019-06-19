@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-left: 0.125em solid var(--border_color);
+  border-right: 0.125em soldi var(--border_color);
+}
+
+.week_day {
+  flex-basis: calc(100% / 7);
+  padding: 0.75em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 400;
+}
+
+@media (min-width: 40.01rem) {
+  .week_day {
+    padding: 0.75em 0.5em;
+  }
+}
